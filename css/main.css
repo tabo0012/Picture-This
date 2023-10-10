@@ -35,9 +35,13 @@ img {
 
 @media (min-width: 960px) {
     .header {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        background-color: cadetblue;
     }
 }
+
+/* /* @media (max-width: 959px) {
+    .header {
+        grid-template-columns: 1fr;
+        grid: template columns 1fr;
+    } */
+
